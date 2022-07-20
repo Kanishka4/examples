@@ -43,7 +43,7 @@ public class ConsumerExample {
     final String topic = args[1];
 
     // Load properties from a local configuration file
-    // Create the configuration file (e.g. at '$HOME/.confluent/java.config') with configuration parameters
+    // Create the configuration file (e.g. at '$HOME/.confluent/java.properties') with configuration parameters
     // to connect to your Kafka cluster, which can be on your local host, Confluent Cloud, or any other cluster.
     // Follow these instructions to create this file: https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/java.html
 

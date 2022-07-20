@@ -33,7 +33,7 @@ public class ConsumerExample {
           props.put(AbstractKafkaSchemaSerDeConfig.SCHEMA_REGISTRY_URL_CONFIG, "http://localhost:8081");
         } else {
           // Load properties from a local configuration file
-          // Create the configuration file (e.g. at '$HOME/.confluent/java.config') with configuration parameters
+          // Create the configuration file (e.g. at '$HOME/.confluent/java.properties') with configuration parameters
           // to connect to your Kafka cluster, which can be on your local host, Confluent Cloud, or any other cluster.
           // Documentation at https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/java.html
           configFile = args[0];
